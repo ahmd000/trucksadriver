@@ -1,0 +1,17 @@
+String uri = "http://truck-sa.com:2368";
+String urinet = "http://truck-sa.com";
+String drive = uri + "/drive";
+String ImagedriveBills = uri + "/Image/D/Bills";
+String Bank = uri + "/drive/Bank";
+String Bills = uri + "/drive/Bills";
+String driveEdit = drive + "/Edit";
+String Editbylatandlong = drive + "/Editbylatandlong";
+String dataparagraphs = uri + "/paragraphs";
+String urlSection = uri + "/Section";
+String Orders = uri + "/Orders";
+String getorder = Orders + "/getorder";
+String setorder = Orders + "/setorder";
+String cancelorder = Orders + "/cancelorder";
+String getorderbydriver = Orders + "/getorderbydriver";
+String chats = Orders + "/chats";
+String setCasetotootder = Orders + "/setCasetotootder";
