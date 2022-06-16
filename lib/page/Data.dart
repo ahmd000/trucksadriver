@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trucksadriver/halp/Color.dart';
 import 'package:trucksadriver/halp/TextStyle.dart';
+import 'package:trucksadriver/page/home.dart';
 import '../main.dart';
 
 class DataPageShow extends StatelessWidget {
@@ -40,7 +41,7 @@ class DataPageShow extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                Data == null ? "" : "",
+                Data == null ? "" : Data!,
                 style: Text1.copyWith(fontSize: 20, color: btnborder1),
                 textAlign: TextAlign.center,
               ),
